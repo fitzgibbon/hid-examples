@@ -1,5 +1,9 @@
 resolver: lts-18.21
 
+nix:
+  enable: true
+  packages: [pkgconfig zlib]
+
 packages:
 - .
 
